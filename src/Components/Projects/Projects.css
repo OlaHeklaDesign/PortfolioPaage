@@ -1,0 +1,71 @@
+.projects {
+  width: 1272px;
+  margin: 0 auto;
+  padding: 54px 0 70px 0;
+}
+
+.projects h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 14px;
+}
+
+.project {
+  position: relative;
+  width: 623px;
+  height: 301px;
+}
+
+.project-hover {
+  width: 623px;
+  height: 301px;
+  position: absolute;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.project_beauty .project-hover {
+  background: rgba(196, 166, 133, 0.9);
+}
+
+.project-pizza .project-hover {
+  background: rgba(225, 129, 66, 0.96);
+}
+
+.project-hover h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.project-hover button {
+  color: #2a2a2a;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+
+.logos {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 30px;
+} 
+
+.logos img {
+  max-width: 30px;
+  max-height: 30px;
+  width: 100%;
+  height: auto;
+}

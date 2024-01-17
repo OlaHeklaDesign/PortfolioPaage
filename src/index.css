@@ -31,3 +31,8 @@ code {
   background-repeat: repeat-y;
   border-bottom: 1px solid rgb(40, 40, 40, 0.07);
 }
+
+.white-bg {
+  background: url("../src/Components/Assets/backround_white.png");
+  background-repeat: repeat-y;
+}

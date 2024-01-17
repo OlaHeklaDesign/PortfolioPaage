@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroBlack from '../Components/HeroBlack/HeroBlack';
 import HeroWhite from '../Components/HeroWhite/HeroWhite';
+import Projects from '../Components/Projects/Projects';
 
 const Homepage = () => {
   return (
@@ -10,6 +11,9 @@ const Homepage = () => {
       </div>
       <div className="white-stripe-bg">
         <HeroWhite />
+      </div>
+      <div className="white-bg">
+        <Projects/>
       </div>
     </div>
   )
