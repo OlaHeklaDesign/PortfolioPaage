@@ -1,0 +1,92 @@
+.hero {
+  max-width: 1272px;
+  margin: 0 auto;
+  padding: 48px 0 133px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-text-box {
+  margin-left: 59px;
+}
+
+.left-text-box h1 {
+  font-size: 66px;
+  font-weight: 600;
+  color: #F0F0F0;
+}
+
+.line-hero {
+  width: 52px;
+  height: 5px;
+  background: #F0F0F0;
+}
+
+
+.hero-text-linetwo {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+  margin-left: 63px;
+}
+
+.hero-button {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  border-radius: 50%;
+  margin-right: 112px;
+}
+
+.hero-button-textbox {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-button-circle {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #F0F0F0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-button img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-button-textbox p {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 10.6px;
+  color: white;
+  font-weight: 500;
+  animation: rotateText 10s linear infinite;
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hero-button-textbox span {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 65px;
+  font-family: monospace;
+}

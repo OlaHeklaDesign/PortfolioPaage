@@ -1,0 +1,19 @@
+.navbar {
+  max-width: 1272px;
+  margin: 0 auto;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 38px;
+}
+
+.nav-menu li {
+  list-style: none;
+  color: #F0F0F0;
+  font-weight: 500;
+  font-size: 12px;
+}
