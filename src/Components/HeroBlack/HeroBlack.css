@@ -1,16 +1,19 @@
-.hero {
+
+.hero-black {
   max-width: 1272px;
   margin: 0 auto;
-  padding: 48px 0 133px 0;
   display: flex;
   justify-content: space-between;
+  align-items: end;
+  padding: 48px 0 48px 0;
 }
 
-.left-text-box {
+.hero-leftwhite-text-box {
   margin-left: 59px;
+  margin-bottom: 85px;
 }
 
-.left-text-box h1 {
+.hero-leftwhite-text-box h1 {
   font-size: 66px;
   font-weight: 600;
   color: #F0F0F0;
@@ -23,14 +26,14 @@
 }
 
 
-.hero-text-linetwo {
+.hero-leftwhite-text-linetwo {
   display: flex;
   align-items: center;
   gap: 39px;
   margin-left: 63px;
 }
 
-.hero-button {
+.hero-rightwhite-button {
   width: 130px;
   height: 130px;
   position: relative;
@@ -58,7 +61,7 @@
   transform: translate(-50%, -50%);
 }
 
-.hero-button img {
+.hero-rightwhite-button img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -70,7 +73,6 @@
   height: 100%;
   position: absolute;
   font-size: 10.6px;
-  color: white;
   font-weight: 500;
   animation: rotateText 10s linear infinite;
 }
@@ -89,4 +91,5 @@
   left: 50%;
   transform-origin: 0 65px;
   font-family: monospace;
+  color: white;
 }

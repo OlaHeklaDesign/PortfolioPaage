@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './Hero.css';
+import './HeroBlack.css';
 import arrow_hero_icon from '../Assets/hero-button-arrow.svg';
 
 const Hero = () => {
@@ -26,15 +26,15 @@ const Hero = () => {
   
 
   return (
-    <div className="hero">
-      <div className="left-text-box">
+    <div className="hero-black">
+      <div className="hero-leftwhite-text-box">
         <h1>Ola Kowalczyk</h1>
-        <div className="hero-text-linetwo">
+        <div className="hero-leftwhite-text-linetwo">
           <div className="line-hero"></div>
           <h1>Frontend Developer</h1>
         </div>
       </div>
-      <div className="hero-button">
+      <div className="hero-rightwhite-button">
         <div className="hero-button-textbox">
           <p ref={textRef}>NAPISZ DO MNIE • NAPISZ DO MNIE • NAPISZ DO MNIE •</p>
         </div>

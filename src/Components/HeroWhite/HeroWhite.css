@@ -1,0 +1,70 @@
+.hero-white {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  max-width: 1272px;
+  margin: 0 auto;
+}
+
+.hero-white-left-box {
+  margin-top: -60px;
+  margin-bottom: -7px;
+}
+
+.hero-white-right-box {
+  padding: 0 180px 28px 68px;
+  position: relative;
+}
+
+.hero-white-right-box p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 500;
+  position: relative;
+  z-index: 3;
+}
+
+.hero-white-right-box p span {
+  font-weight: 700;
+}
+
+.hero-blur-yellow {
+  width: 94px;
+  height: 177px;
+  transform: rotate(17.159deg);
+  background: #E1D800;
+  border-radius: 100px;
+  filter: blur(55px);
+  position: absolute;
+  top: 54px;
+  right: 100px;
+}
+
+.hero-blur-red {
+  width: 200px;
+  height: 279px;
+  transform: rotate(33.864deg);
+  border-radius: 301px;
+  background: #EF4D24;
+  filter: blur(75px);
+  position: absolute;
+  top: -28px;
+  right: 0;
+}
+
+.hero-blur-purple {
+  width: 151px;
+  height: 279px;
+  border-radius: 279px;
+  background: rgba(70, 0, 225, 0.80);
+  filter: blur(75px);
+  position: absolute;
+  top: 0;
+  right: -80px;
+}
+
+.hero-blures {
+  position: absolute;
+  top: -8px;
+  right: 48px;
+}

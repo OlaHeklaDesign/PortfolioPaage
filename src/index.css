@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  color: #282828;
 }
 
 body {
@@ -22,4 +23,11 @@ code {
 
 .black-bg {
   background: url("../src/Components/Assets/background_nav_hero.png");
+}
+
+.white-stripe-bg {
+  background: url("../src/Components/Assets/background-hero_white.png");
+  background-size: contain;
+  background-repeat: repeat-y;
+  border-bottom: 1px solid rgb(40, 40, 40, 0.07);
 }

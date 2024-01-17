@@ -1,11 +1,15 @@
 import React from 'react';
-import Hero from '../Components/Hero/Hero';
+import HeroBlack from '../Components/HeroBlack/HeroBlack';
+import HeroWhite from '../Components/HeroWhite/HeroWhite';
 
 const Homepage = () => {
   return (
     <div className="homepage">
       <div className="black-bg">
-        <Hero />
+        <HeroBlack />
+      </div>
+      <div className="white-stripe-bg">
+        <HeroWhite />
       </div>
     </div>
   )
