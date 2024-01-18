@@ -1,0 +1,87 @@
+.skills {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1272px;
+  padding-top: 86px;
+}
+
+.skills-left {
+  flex: 0.75;
+  padding-right: 150px;
+}
+
+.skills-left h2 {
+  color: #F0F0F0;
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 38px;
+}
+
+.skills-left p {
+  color: #C6C6C6;
+  line-height: 26px;
+  margin-bottom: 27px;
+}
+
+.skills-left button {
+  color: #F0F0F0;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 16px;
+  border: 1px solid #F0F0F0;
+  border-radius: 35px;
+  background: transparent;
+}
+
+.skill-box {
+  display: flex;
+  background: #F0F0F0;
+  border: 2px solid #282828;
+  border-radius: 6px;
+  padding: 16px 36px 29px 31px;
+  max-width: 672px;
+}
+
+.skill-box h4 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #282828;
+  margin-right: 18px;
+}
+
+.skill-box div {
+  margin-top: 16px;
+}
+
+.skill-box div h4 {
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+.skill-box div p {
+  color: rgba(40, 40, 40, 0.7);
+}
+
+.skills-right {
+  flex: 1;
+}
+
+.skill-box:nth-child(1) {
+  transform: rotate(1.5deg);
+}
+
+.skill-box:nth-child(2) {
+  transform: rotate(-1.14deg);
+}
+
+.skill-box:nth-child(3) {
+  transform: rotate(1.7deg);
+}
+
+.skill-box:nth-child(4) {
+  transform: rotate(0.08deg);
+}
+
+.skill-box:nth-child(5) {
+  transform: rotate(0.99deg);
+}
