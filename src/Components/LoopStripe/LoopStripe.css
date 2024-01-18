@@ -1,7 +1,9 @@
 .loopstripe {
-  display: flex;
   padding: 27px 0;
   border-bottom: 1px solid #282828;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .loopstripe p {
@@ -12,4 +14,15 @@
 
 .loopstripe img {
   margin: 0 23px;
+}
+
+.looptext {
+  display: flex;
+  animation: 8s moveStrap linear infinite;
+}
+
+@keyframes moveStrap {
+  to {
+    transform: translateX(-100%);
+  }
 }
