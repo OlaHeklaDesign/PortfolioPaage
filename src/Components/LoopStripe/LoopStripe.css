@@ -1,0 +1,15 @@
+.loopstripe {
+  display: flex;
+  padding: 27px 0;
+  border-bottom: 1px solid #282828;
+}
+
+.loopstripe p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1.08px;
+}
+
+.loopstripe img {
+  margin: 0 23px;
+}

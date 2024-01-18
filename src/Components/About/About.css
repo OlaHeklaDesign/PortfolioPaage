@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  align-items: end;
+  padding-left: 84px;
+  border-bottom: 1px solid #282828;
+  overflow: hidden;
+}
+
+.about-right {
+  border-left: 1px solid #282828;
+  margin-bottom: -7px;
+}
+
+.about-left {
+  padding-right: 65px;
+  padding-bottom: 45px;
+}
+
+.about-left h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.about-left p {
+  font-size: 14px;
+}

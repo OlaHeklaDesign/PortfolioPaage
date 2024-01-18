@@ -36,3 +36,8 @@ code {
   background: url("../src/Components/Assets/backround_white.png");
   background-repeat: repeat-y;
 }
+
+.red-bg {
+  background: url('../src/Components/Assets/red-bg.png');
+  background-repeat: repeat-y;
+}
