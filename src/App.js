@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from '../src/Components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from '../src/Pages/Homepage';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage/>}></Route>
         </Routes>
+        <div className="grey-bg">
+          <Footer/>
+        </div>
       </BrowserRouter>
     </div>
   );

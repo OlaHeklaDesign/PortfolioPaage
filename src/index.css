@@ -41,3 +41,8 @@ code {
   background: url('../src/Components/Assets/red-bg.png');
   background-repeat: repeat-y;
 }
+
+.grey-bg {
+  background: rgba(223, 223, 223, 0.4);
+  border-top: 1px solid #282828;
+}

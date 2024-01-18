@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1172px;
+  margin: 0 auto;
+  padding: 72px 0;
+}
+
+.footer li {
+  list-style: none;
+  color: #282828;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer ul {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.footer-contact div {
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact div img {
+  margin-right: 7px;
+}
+
+.footer-contact div {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-contact {
+  display: flex;
+  gap: 35px;
+}
