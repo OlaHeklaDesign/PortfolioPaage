@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 14px;
+  column-gap: 14px;
 }
 
 .project {
@@ -69,4 +70,19 @@
   max-height: 30px;
   width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 1300px)  {
+  .projects {
+    margin: 0 20px;
+  }
+  .project_img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 754px)  {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }

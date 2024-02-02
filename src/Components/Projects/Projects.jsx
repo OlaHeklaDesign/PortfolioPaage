@@ -14,7 +14,7 @@ const Projects = () => {
     <div className="projects">
       <h2>Projects showcase</h2>
       <div className="projects-grid">
-        <div className="project_beauty">
+        <div className="project_beauty projects_project">
         <div className="project-hover">
             <h3>Website for Beauty Salon</h3>
             <div className="logos">
@@ -24,9 +24,9 @@ const Projects = () => {
             </div>
             <button>CASE STUDY</button>
           </div>
-          <img src={beauty_img} alt="" />
+          <img src={beauty_img} alt="" className='project_img'/>
         </div>
-        <div className="project-pizza">
+        <div className="project-pizza projects_project">
             <div className="project-hover">
               <h3>Website for Pizzeria</h3>
               <div className="logos">
@@ -36,9 +36,9 @@ const Projects = () => {
               </div>
               <button>CASE STUDY</button>
             </div>
-          <img src={pizza_img} alt="" />
+          <img src={pizza_img} alt="" className='project_img' />
         </div>
-        <div className="project-agency">
+        <div className="project-agency projects_project">
             <div className="project-hover">
               <h3>Website for Agency</h3>
               <div className="logos">
@@ -48,9 +48,9 @@ const Projects = () => {
               </div>
               <button>CASE STUDY</button>
             </div>
-          <img src={agency_img} alt="" />
+          <img src={agency_img} alt="" className='project_img' />
         </div>
-        <div className="portfolio-agency">
+        <div className="portfolio-agency projects_project">
             <div className="project-hover">
               <h3>Website for Portfolio</h3>
               <div className="logos">
@@ -60,7 +60,7 @@ const Projects = () => {
               </div>
               <button>CASE STUDY</button>
             </div>
-          <img src={portfolio_img} alt="" />
+          <img src={portfolio_img} alt="" className='project_img' />
         </div>
       </div>
     </div>
