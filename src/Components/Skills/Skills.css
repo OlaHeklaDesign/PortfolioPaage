@@ -4,6 +4,7 @@
   max-width: 1272px;
   padding-top: 86px;
   position: relative;
+  overflow: hidden;
 }
 
 .skills-left {

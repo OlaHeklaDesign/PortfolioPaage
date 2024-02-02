@@ -94,3 +94,101 @@
   font-family: monospace;
   color: white;
 }
+
+@media only screen and (max-width: 1136px)  {
+  .hero-leftwhite-text-box {
+    margin-left: 20px;
+  }
+  .hero-rightwhite-button {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 1048px)  {
+  .hero-leftwhite-text-box {
+    margin-bottom: 20px;
+  }
+  .hero-black {
+    flex-direction: column;
+    align-items: start;
+  }
+  .hero-rightwhite-button {
+    margin-left: 40px;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 888px)  {
+  .hero-leftwhite-text-linetwo h1 {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 768px)  {
+  .hero-leftwhite-text-linetwo h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 768px)  {
+  .hero-leftwhite-text-box h1 {
+    font-size: 55px;
+  }
+  .hero-leftwhite-text-linetwo h1 {
+    font-size: 45px;
+  }
+  .line-hero {
+    width: 40px;
+  }
+  .hero-leftwhite-text-linetwo {
+    gap: 16px;
+    margin-left: 23px;
+  }
+}
+
+@media only screen and (max-width: 579px)  {
+  .hero-leftwhite-text-box h1 {
+    font-size: 50px;
+  }
+  .hero-leftwhite-text-linetwo h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 536px)  {
+  .hero-leftwhite-text-linetwo h1 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 475px)  {
+  .hero-leftwhite-text-box h1 {
+    font-size: 44px;
+  }
+  .hero-leftwhite-text-linetwo h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 429px)  {
+  .hero-leftwhite-text-box h1 {
+    font-size: 38px;
+  }
+  .hero-leftwhite-text-linetwo h1 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 380px)  {
+  .hero-leftwhite-text-box h1 {
+    font-size: 35px;
+  }
+  .hero-leftwhite-text-linetwo h1 {
+    font-size: 20px;
+  }
+  .line-hero {
+    width: 30px;
+    height: 3px;
+  }
+}
+
