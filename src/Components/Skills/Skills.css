@@ -103,3 +103,34 @@
   width: 100%;
   z-index: 1000;
 }
+
+@media only screen and (max-width: 1300px)  {
+  .skills {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1040px)  {
+  .skills-left {
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 790px)  {
+  .skills {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .skills-right {
+    position: static;
+  }
+  .skills-left {
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 406px)  {
+  .skills-left {
+    padding-right: 0;
+  }
+}
