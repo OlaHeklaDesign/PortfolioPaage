@@ -28,3 +28,39 @@
 .about-left p {
   font-size: 14px;
 }
+
+@media only screen and (max-width: 1350px)  {
+  .about {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1300px)  {
+  .about-right img {
+    max-width: 520px;
+  }
+}
+
+@media only screen and (max-width: 1156px)  {
+  .about {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-left: 0;
+    padding: 0 20px;
+  }
+  .about-right {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-left: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .about-left {
+    text-align: center;
+    padding-right: 0;
+    max-width: 800px;
+  }
+}
