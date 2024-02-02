@@ -4,6 +4,7 @@
   align-items: end;
   max-width: 1272px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .hero-white-left-box {

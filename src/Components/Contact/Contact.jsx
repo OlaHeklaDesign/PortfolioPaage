@@ -22,13 +22,17 @@ const Contact = () => {
         <div>
           <p>GitHub</p>
           <button>
+            <a href="https://github.com/OlaHeklaDesign">
             <img src={arrow_contact_icon} alt="arrow icon" />
+            </a>
           </button>
         </div>
         <div>
           <p>LinkedIn</p>
           <button>
-            <img src={arrow_contact_icon} alt="arrow icon" />
+            <a href="https://www.linkedin.com/in/aleksandra-k-539550226/">
+              <img src={arrow_contact_icon} alt="arrow icon" />
+            </a>
           </button>
         </div>
         <div>

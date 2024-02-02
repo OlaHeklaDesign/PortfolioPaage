@@ -17,3 +17,42 @@
   font-weight: 500;
   font-size: 12px;
 }
+
+.mobile-menu {
+  display: none;
+  position: relative;
+  justify-content: end;
+}
+
+.mobile {
+  position: absolute;
+  top: 160%;
+  right: 0;
+  background: #F0F0F0;
+  padding: 16px;
+  flex-direction: column;
+  width: 150px;
+}
+
+.mobile li {
+  color: #282828;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1300px)  {
+  .navbar{
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 556px)  {
+  .mobile-menu{
+    display: flex;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+  }
+}

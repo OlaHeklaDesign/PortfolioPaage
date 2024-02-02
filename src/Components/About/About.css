@@ -4,6 +4,9 @@
   padding-left: 84px;
   border-bottom: 1px solid #282828;
   overflow: hidden;
+  max-width: 1356px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .about-right {

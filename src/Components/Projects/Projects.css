@@ -1,7 +1,8 @@
 .projects {
-  width: 1272px;
+  max-width: 1272px;
   margin: 0 auto;
   padding: 54px 0 70px 0;
+  overflow: hidden;
 }
 
 .projects h2 {

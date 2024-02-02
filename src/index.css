@@ -34,12 +34,13 @@ code {
 
 .white-bg {
   background: url("../src/Components/Assets/backround_white.png");
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 
 .red-bg {
   background: url('../src/Components/Assets/red-bg.png');
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .grey-bg {

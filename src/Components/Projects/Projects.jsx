@@ -2,6 +2,8 @@ import React from 'react';
 import './Projects.css';
 import beauty_img from '../Assets/beauty-small.png';
 import pizza_img from '../Assets/pizzeria-small.png';
+import portfolio_img from '../Assets/portfolio-img.png';
+import agency_img from '../Assets/agency-img.png';
 import html_icon from '../Assets/html.png';
 import css_icon from "../Assets/css.png";
 import js_icon from '../Assets/js.png';
@@ -35,6 +37,30 @@ const Projects = () => {
               <button>CASE STUDY</button>
             </div>
           <img src={pizza_img} alt="" />
+        </div>
+        <div className="project-agency">
+            <div className="project-hover">
+              <h3>Website for Agency</h3>
+              <div className="logos">
+                <img src={html_icon} alt="html icon" />
+                <img src={css_icon} alt="css icon" />
+                <img src={js_icon} alt="js icon" />
+              </div>
+              <button>CASE STUDY</button>
+            </div>
+          <img src={agency_img} alt="" />
+        </div>
+        <div className="portfolio-agency">
+            <div className="project-hover">
+              <h3>Website for Portfolio</h3>
+              <div className="logos">
+                <img src={html_icon} alt="html icon" />
+                <img src={css_icon} alt="css icon" />
+                <img src={js_icon} alt="js icon" />
+              </div>
+              <button>CASE STUDY</button>
+            </div>
+          <img src={portfolio_img} alt="" />
         </div>
       </div>
     </div>

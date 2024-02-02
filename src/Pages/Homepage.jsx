@@ -19,7 +19,7 @@ const Homepage = () => {
       <div className="white-bg">
         <Projects/>
       </div>
-      <div className="black-bg">
+      <div className="black-bg skills-cont">
         <Skills/>
       </div>
       <div className="white-bg">

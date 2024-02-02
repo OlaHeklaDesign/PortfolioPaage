@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: end;
   padding: 48px 0 48px 0;
+  overflow: hidden;
 }
 
 .hero-leftwhite-text-box {

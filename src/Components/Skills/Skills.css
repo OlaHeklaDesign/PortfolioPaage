@@ -3,11 +3,14 @@
   margin: 0 auto;
   max-width: 1272px;
   padding-top: 86px;
+  position: relative;
 }
 
 .skills-left {
   flex: 0.75;
   padding-right: 150px;
+  position: sticky;
+  top: 86px;
 }
 
 .skills-left h2 {
@@ -64,6 +67,12 @@
 
 .skills-right {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: sticky;
+  top: 86px;
+  padding-bottom: 100px;
 }
 
 .skill-box:nth-child(1) {
@@ -84,4 +93,12 @@
 
 .skill-box:nth-child(5) {
   transform: rotate(0.99deg);
+}
+
+.skills.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
