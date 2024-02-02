@@ -4,7 +4,7 @@
   align-items: end;
   max-width: 1272px;
   margin: 0 auto;
-  overflow: hidden;
+  position: relative;
 }
 
 .hero-white-left-box {
@@ -14,7 +14,6 @@
 
 .hero-white-right-box {
   padding: 0 180px 28px 68px;
-  position: relative;
 }
 
 .hero-white-right-box p {
@@ -37,8 +36,8 @@
   border-radius: 100px;
   filter: blur(55px);
   position: absolute;
-  top: 54px;
-  right: 100px;
+  top: 46px;
+  right: 68px;
 }
 
 .hero-blur-red {
@@ -49,8 +48,8 @@
   background: #EF4D24;
   filter: blur(75px);
   position: absolute;
-  top: -28px;
-  right: 0;
+  top: -36px;
+  right: 48px;
 }
 
 .hero-blur-purple {
@@ -60,13 +59,61 @@
   background: rgba(70, 0, 225, 0.80);
   filter: blur(75px);
   position: absolute;
-  top: 0;
-  right: -80px;
+  top: -8px;
+  right: -32px;
 }
 
 .hero-blures {
   position: absolute;
-  top: -8px;
-  right: 48px;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
 }
 
+@media only screen and (max-width: 1350px)  {
+  .hero-white {
+    margin: 0 0 0 auto;
+  }
+  .hero-blures {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 1200px)  {
+  .hero-white-right-box {
+    padding: 0 20px 28px 30px;
+  }
+}
+
+@media only screen and (max-width: 997px)  {
+  .hero-white-left-box img {
+    height: 100%;
+  }
+  .hero-white-left-box {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 754px)  {
+  .hero-white {
+    flex-direction: column-reverse;
+    margin-bottom: 7px;
+    align-items: center;
+    overflow: hidden;
+  }
+  .hero-white-left-box {
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  .hero-white-right-box {
+    padding: 20px 20px 28px 30px
+  }
+  .hero-blures {
+    display: none;
+  }
+}

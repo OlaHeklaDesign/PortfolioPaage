@@ -111,6 +111,7 @@
   .hero-black {
     flex-direction: column;
     align-items: start;
+    padding: 48px 0 90px 0;
   }
   .hero-rightwhite-button {
     margin-left: 40px;
