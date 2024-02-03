@@ -38,3 +38,36 @@
   display: flex;
   gap: 35px;
 }
+
+@media only screen and (max-width: 1300px)  {
+  .footer {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1093px)  {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .footer img:first-child {
+    width: 200px;
+  }
+  .footer-contact img {
+    width: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 440px)  {
+  .footer ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer-contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

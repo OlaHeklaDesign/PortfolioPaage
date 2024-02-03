@@ -39,7 +39,7 @@ code {
 
 .red-bg {
   background: url('../src/Components/Assets/red-bg.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: center;
 }
 
