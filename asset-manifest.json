@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/PortfolioPaage/static/css/main.437227c8.css",
+    "main.js": "/PortfolioPaage/static/js/main.d0136c5a.js",
+    "static/js/787.7da95b79.chunk.js": "/PortfolioPaage/static/js/787.7da95b79.chunk.js",
+    "static/media/red-bg.png": "/PortfolioPaage/static/media/red-bg.1e55e65b65a1c145e931.png",
+    "static/media/about_img.png": "/PortfolioPaage/static/media/about_img.229f2b78e34233e6e812.png",
+    "static/media/background_nav_hero.png": "/PortfolioPaage/static/media/background_nav_hero.ca03695460e4924b8d53.png",
+    "static/media/hero_photo.png": "/PortfolioPaage/static/media/hero_photo.6855920fe699ae0ecf78.png",
+    "static/media/beauty-small.png": "/PortfolioPaage/static/media/beauty-small.21d7ab056969ff28b0c5.png",
+    "static/media/pizzeria-small.png": "/PortfolioPaage/static/media/pizzeria-small.3c2e753f11cddec7a797.png",
+    "static/media/portfolio-img.png": "/PortfolioPaage/static/media/portfolio-img.b220fb7cb7f8d19a0529.png",
+    "static/media/backround_white.png": "/PortfolioPaage/static/media/backround_white.5a214f90a27c9f9192db.png",
+    "static/media/background-hero_white.png": "/PortfolioPaage/static/media/background-hero_white.8c044a3e5abaf34183f1.png",
+    "static/media/agency-img.png": "/PortfolioPaage/static/media/agency-img.e39af535d16b471b3e53.png",
+    "static/media/html.png": "/PortfolioPaage/static/media/html.9f0fd02572dc1714b8d5.png",
+    "static/media/css.png": "/PortfolioPaage/static/media/css.8c63e37c3929509ab1db.png",
+    "static/media/logo_footer.svg": "/PortfolioPaage/static/media/logo_footer.6ca7581f21add0ed604e2444f097af5d.svg",
+    "static/media/logo.svg": "/PortfolioPaage/static/media/logo.9463f99c501739e6175345986c00c71e.svg",
+    "static/media/mail_icon.svg": "/PortfolioPaage/static/media/mail_icon.829f5097968652628dea12c43dcf4ad5.svg",
+    "static/media/mail_icon_black.svg": "/PortfolioPaage/static/media/mail_icon_black.41ebca9881e80b86d470ecfe397720c7.svg",
+    "static/media/menu.svg": "/PortfolioPaage/static/media/menu.d2637ebb7fec8950ba63bca0345d4566.svg",
+    "static/media/phone_icon.svg": "/PortfolioPaage/static/media/phone_icon.6277f5018b6f77c183e29f797bc0fcc9.svg",
+    "static/media/phone_icon_black.svg": "/PortfolioPaage/static/media/phone_icon_black.c7d6ea377e14b6b7a5bd8e18676b8aeb.svg",
+    "index.html": "/PortfolioPaage/index.html",
+    "static/media/arrow_contact.svg": "/PortfolioPaage/static/media/arrow_contact.52ba5dcf284202ea51f437979204f1e5.svg",
+    "static/media/hero-button-arrow.svg": "/PortfolioPaage/static/media/hero-button-arrow.38eb1b598d499534b4183bf942ba630b.svg",
+    "static/media/star.svg": "/PortfolioPaage/static/media/star.e35b7ff9dcfa346739230de8e61b2e55.svg",
+    "main.437227c8.css.map": "/PortfolioPaage/static/css/main.437227c8.css.map",
+    "main.d0136c5a.js.map": "/PortfolioPaage/static/js/main.d0136c5a.js.map",
+    "787.7da95b79.chunk.js.map": "/PortfolioPaage/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.437227c8.css",
+    "static/js/main.d0136c5a.js"
+  ]
+}
