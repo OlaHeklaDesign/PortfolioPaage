@@ -11,18 +11,25 @@ import js_icon from '../Assets/js.png';
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h2>Projects showcase</h2>
       <div className="projects-grid">
         <div className="project_beauty projects_project">
         <div className="project-hover">
             <h3>Website for Beauty Salon</h3>
             <div className="logos">
-              <img src={html_icon} alt="html icon" />
-              <img src={css_icon} alt="css icon" />
-              <img src={js_icon} alt="js icon" />
+                <p className='html'>#html</p>
+                <p className='css'>#css</p>
+                <p className='javascript'>#javascript</p>
             </div>
-            <button>CASE STUDY</button>
+            <div className='project-buttons'>
+              <a href="https://olahekladesign.github.io/LandingBeauty/">
+                <button>GO TO WEBSITE</button>
+              </a>
+              <a href="https://github.com/OlaHeklaDesign/LandingBeauty">
+                <button>GITHUB</button>
+              </a>
+            </div>
           </div>
           <img src={beauty_img} alt="" className='project_img'/>
         </div>
@@ -30,11 +37,18 @@ const Projects = () => {
             <div className="project-hover">
               <h3>Website for Pizzeria</h3>
               <div className="logos">
-                <img src={html_icon} alt="html icon" />
-                <img src={css_icon} alt="css icon" />
-                <img src={js_icon} alt="js icon" />
+              <p className='html'>#html</p>
+                <p className='css'>#css</p>
+                <p className='javascript'>#javascript</p>
               </div>
-              <button>CASE STUDY</button>
+              <div className='project-buttons'>
+                <a href="https://olahekladesign.github.io/LandingPizzeria/">
+                  <button>GO TO WEBSITE</button>
+                </a>
+                <a href="https://github.com/OlaHeklaDesign/LandingPizzeria">
+                  <button>GITHUB</button>
+                </a>
+            </div>
             </div>
           <img src={pizza_img} alt="" className='project_img' />
         </div>
@@ -42,23 +56,37 @@ const Projects = () => {
             <div className="project-hover">
               <h3>Website for Agency</h3>
               <div className="logos">
-                <img src={html_icon} alt="html icon" />
-                <img src={css_icon} alt="css icon" />
-                <img src={js_icon} alt="js icon" />
+              <p className='html'>#html</p>
+                <p className='css'>#css</p>
+                <p className='javascript'>#javascript</p>
+                <p className='react'>#react</p>
               </div>
-              <button>CASE STUDY</button>
+              <div className='project-buttons'>
+                <a href="https://olahekladesign.github.io/meastate/">
+                  <button>GO TO WEBSITE</button>
+                </a>
+                <a href="https://github.com/OlaHeklaDesign/meastate">
+                  <button>GITHUB</button>
+                </a>
+            </div>
             </div>
           <img src={agency_img} alt="" className='project_img' />
         </div>
-        <div className="portfolio-agency projects_project">
+        <div className="project-portfolio projects_project">
             <div className="project-hover">
-              <h3>Website for Portfolio</h3>
+              <h3>My Portfolio Website</h3>
               <div className="logos">
-                <img src={html_icon} alt="html icon" />
-                <img src={css_icon} alt="css icon" />
-                <img src={js_icon} alt="js icon" />
+                <p className='html'>#html</p>
+                <p className='css'>#css</p>
+                <p className='javascript'>#javascript</p>
+                <p className='react'>#react</p>
               </div>
-              <button>CASE STUDY</button>
+              <div className='project-buttons'>
+                <button>GO TO WEBSITE</button>
+                <a href="https://github.com/OlaHeklaDesign/PortfolioPaage">
+                  <button>GITHUB</button>
+                </a>
+            </div>
             </div>
           <img src={portfolio_img} alt="" className='project_img' />
         </div>

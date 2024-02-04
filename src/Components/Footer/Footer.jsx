@@ -9,10 +9,18 @@ const Footer = () => {
     <div className="footer">
       <img src={logo_footer} alt="logo" />
       <ul>
-        <li>ABOUT ME</li>
-        <li>SKILLS</li>
-        <li>PROJECTS</li>
-        <li>CONTACT</li>
+      <li>
+          <a href="#about">ABOUT ME</a>
+        </li>
+        <li>
+          <a href="#skills">SKILLS</a>
+        </li>
+        <li>
+          <a href="#projects">PROJECTS</a>
+        </li>
+        <li>
+          <a href="#contact">CONTACT</a>
+        </li>
       </ul>
       <div className="footer-contact">
         <div>

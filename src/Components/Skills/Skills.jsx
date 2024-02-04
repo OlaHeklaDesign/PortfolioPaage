@@ -144,11 +144,13 @@ const Skills = () => {
   }, []);*/
 
   return (
-    <div className="skills">
+    <div className="skills" id='skills'>
      <div className="skills-left">
       <h2>My skillset</h2>
       <p>Passionate about web development, I showcase proficiency in HTML, CSS, SASS, JavaScript, Angular, UI Design, and no-code tools. Committed to continuous learning, my evolving skill set reflects my dedication to staying at the forefront of web technologies and design trends.</p>
-      <button>SEE ME PROJECTS</button>
+      <a href="#projects">
+        <button>SEE ME PROJECTS</button>
+      </a>
      </div>
      <div className="skills-right">
       <div className="skill-box skill-box1">

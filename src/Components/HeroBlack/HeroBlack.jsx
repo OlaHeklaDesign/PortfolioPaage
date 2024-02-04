@@ -23,6 +23,11 @@ const Hero = () => {
         .join('<span>&nbsp;</span>') +'<span>&nbsp;</span>';
     }
   }, []);
+
+  const handleButtonClick = () => {
+    const contactSection = document.getElementById("contact");
+    contactSection.scrollIntoView({behavior: "smooth"});
+  }
   
 
   return (
@@ -34,7 +39,7 @@ const Hero = () => {
           <h1>Frontend Developer</h1>
         </div>
       </div>
-      <div className="hero-rightwhite-button">
+      <div className="hero-rightwhite-button" onClick={handleButtonClick}>
         <div className="hero-button-textbox">
           <p ref={textRef}>NAPISZ DO MNIE • NAPISZ DO MNIE • NAPISZ DO MNIE •</p>
         </div>

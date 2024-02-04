@@ -18,15 +18,10 @@
   column-gap: 14px;
 }
 
-.project {
-  position: relative;
-  width: 623px;
-  height: 301px;
-}
-
 .project-hover {
-  width: 623px;
-  height: 301px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   position: absolute;
   border-radius: 12px;
   display: flex;
@@ -36,12 +31,57 @@
   display: none;
 }
 
+.projects_project {
+  position: relative;
+}
+
+.projects_project:hover .project-hover {
+  display: flex;
+}
+
 .project_beauty .project-hover {
   background: rgba(196, 166, 133, 0.9);
 }
 
 .project-pizza .project-hover {
   background: rgba(225, 129, 66, 0.96);
+}
+
+.project-agency .project-hover {
+  background: rgba(9, 54, 66, 0.9)
+}
+
+.project-portfolio .project-hover {
+  background: rgba(210, 137, 119, 0.85)
+}
+
+.logos p {
+  font-weight: 500;
+  font-size: 12px;
+  background: #F0F0F0;
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+
+.html {
+  color: #EF4D24;
+}
+
+.css {
+  color: #3C517C;
+}
+
+.javascript {
+  color: #DE3363;
+}
+
+.react {
+  color: #2F4858;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
 }
 
 .project-hover h3 {
@@ -57,6 +97,7 @@
   font-size: 14px;
   font-weight: 500;
   border: none;
+  cursor: pointer;
 }
 
 .logos {

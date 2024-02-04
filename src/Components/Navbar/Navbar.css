@@ -11,11 +11,12 @@
   gap: 38px;
 }
 
-.nav-menu li {
+.nav-menu li a {
   list-style: none;
   color: #F0F0F0;
   font-weight: 500;
   font-size: 12px;
+  text-decoration: none;
 }
 
 .mobile-menu {

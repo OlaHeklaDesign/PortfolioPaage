@@ -9,9 +9,14 @@
 
 .footer li {
   list-style: none;
+}
+
+.footer li a {
+  list-style: none;
   color: #282828;
   font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .footer ul {

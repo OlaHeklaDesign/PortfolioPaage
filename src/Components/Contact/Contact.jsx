@@ -6,7 +6,7 @@ import arrow_contact_icon from '../Assets/arrow_contact.svg';
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-left">
         <h2>Let's contact 👋</h2>
         <div>
