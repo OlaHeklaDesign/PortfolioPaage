@@ -11,7 +11,7 @@ const Contact = () => {
         <h2>Let's contact 👋</h2>
         <div>
           <img src={mail_icon} alt="mail icon" />
-          <p>kontakt@olakowalczyk.pl</p>
+          <p>aleksandrakowalczyk944@gmail.com</p>
         </div>
         <div>
           <img src={phone_icon} alt="phone icon" />

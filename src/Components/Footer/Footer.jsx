@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="footer-contact">
         <div>
           <img src={mail_icon_black} alt="mail icon" />
-          <p>kontakt@olakowalczyk.pl</p>
+          <p>aleksandrakowalczyk944@gmail.com</p>
         </div>
         <div>
           <img src={phone_icon_black} alt="phone icon" />
