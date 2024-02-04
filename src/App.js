@@ -7,7 +7,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div>
-      <BrowserRouter basename='portfolio'>
+      <BrowserRouter basename='PortfolioPaage'>
         <div className="black-bg">
           <Navbar />
         </div>
