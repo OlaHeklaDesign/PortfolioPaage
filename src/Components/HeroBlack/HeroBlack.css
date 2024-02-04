@@ -61,6 +61,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes rotateText {
@@ -72,6 +75,17 @@
   }
 }
 
+.hero-button-textbox p {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 10.6px;
+  font-weight: 500;
+  animation: rotateText 10s linear infinite;
+  display: flex;
+  
+}
+
 .hero-button-textbox span {
   position: absolute;
   left: 50%;
@@ -81,16 +95,6 @@
 }
 
 
-.hero-button-textbox span.rotating-char {
-  display: inline-block;
-  transform-origin: 50% 50%;
-  animation: rotateText 10s linear infinite;
-}
-
-.hero-button-textbox span.word-space {
-  display: inline-block;
-  width: 10px; /* Dostosuj szerokość spacji między słowami według potrzeb */
-}
 
 @media only screen and (max-width: 1136px)  {
   .hero-leftwhite-text-box {
