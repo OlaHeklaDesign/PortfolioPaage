@@ -36,8 +36,11 @@
 }
 
 .mobile li {
+  list-style: none;
+}
+
+.mobile li a {
   color: #282828;
-  text-align: center;
 }
 
 @media only screen and (max-width: 1300px)  {
